@@ -7,25 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A604AA5B28F91B4D001506B9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A604AA5A28F91B4D001506B9 /* WebViewController.swift */; };
+		A64A5FD7290F3C4F009428F6 /* CrashID+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FD1290F3C4F009428F6 /* CrashID+CoreDataClass.swift */; };
+		A64A5FD8290F3C4F009428F6 /* CrashID+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FD2290F3C4F009428F6 /* CrashID+CoreDataProperties.swift */; };
+		A64A5FD9290F3C4F009428F6 /* CrashInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FD3290F3C4F009428F6 /* CrashInfo+CoreDataClass.swift */; };
+		A64A5FDA290F3C4F009428F6 /* CrashInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FD4290F3C4F009428F6 /* CrashInfo+CoreDataProperties.swift */; };
+		A64A5FDC290F45BD009428F6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FDB290F45BD009428F6 /* HistoryViewController.swift */; };
+		A64A5FDE290F6519009428F6 /* TheCrashInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FDD290F6519009428F6 /* TheCrashInfo.swift */; };
+		A64A5FE1290F6FC3009428F6 /* CrashImages+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FDF290F6FC3009428F6 /* CrashImages+CoreDataClass.swift */; };
+		A64A5FE2290F6FC3009428F6 /* CrashImages+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FE0290F6FC3009428F6 /* CrashImages+CoreDataProperties.swift */; };
+		A64A5FE4290F7031009428F6 /* IncidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FE3290F7031009428F6 /* IncidentViewController.swift */; };
+		A64A5FE6290F8352009428F6 /* PhotosHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A5FE5290F8352009428F6 /* PhotosHistoryViewController.swift */; };
+		A64C7B6A290E1356009F84E5 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C7B68290E1356009F84E5 /* HistoryTableViewCell.swift */; };
+		A64C7B6B290E1356009F84E5 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64C7B69290E1356009F84E5 /* HistoryTableViewCell.xib */; };
+		A64C7B6E290E307E009F84E5 /* UserContact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C7B6C290E307E009F84E5 /* UserContact+CoreDataClass.swift */; };
+		A64C7B6F290E307E009F84E5 /* UserContact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C7B6D290E307E009F84E5 /* UserContact+CoreDataProperties.swift */; };
+		A667CB6D28F7254F004DE7AE /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667CB6C28F7254F004DE7AE /* MyInfoViewController.swift */; };
+		A669ED6028F5020A0051D8A2 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669ED5F28F5020A0051D8A2 /* EmergencyViewController.swift */; };
+		A669ED6228F503110051D8A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669ED6128F503110051D8A2 /* Constants.swift */; };
 		A66AA7A028D2FB7200C76D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AA79F28D2FB7200C76D7C /* AppDelegate.swift */; };
 		A66AA7A228D2FB7200C76D7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AA7A128D2FB7200C76D7C /* SceneDelegate.swift */; };
-		A66AA7A428D2FB7200C76D7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AA7A328D2FB7200C76D7C /* ViewController.swift */; };
 		A66AA7A728D2FB7200C76D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66AA7A528D2FB7200C76D7C /* Main.storyboard */; };
-		A66AA7AA28D2FB7200C76D7C /* Airbag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A66AA7A828D2FB7200C76D7C /* Airbag.xcdatamodeld */; };
 		A66AA7AC28D2FB7400C76D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66AA7AB28D2FB7400C76D7C /* Assets.xcassets */; };
 		A66AA7AF28D2FB7400C76D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66AA7AD28D2FB7400C76D7C /* LaunchScreen.storyboard */; };
+		A677ACA829074348000A4E3D /* ReviewPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677ACA729074348000A4E3D /* ReviewPhotosViewController.swift */; };
+		A679BA8B28F9F5E800C802DD /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679BA8A28F9F5E800C802DD /* LinksViewController.swift */; };
+		A67EEB4929063C95000E41FE /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67EEB4829063C95000E41FE /* CaptureViewController.swift */; };
+		A6843323290123290038D4BF /* TheirInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6843322290123290038D4BF /* TheirInfoViewController.swift */; };
+		A6EDB69A28FB936500B34D06 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB69828FB936500B34D06 /* TextTableViewCell.swift */; };
+		A6EDB69B28FB936500B34D06 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EDB69928FB936500B34D06 /* TextTableViewCell.xib */; };
+		A6EDB69E28FBA6A100B34D06 /* Airbag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB69C28FBA6A100B34D06 /* Airbag.xcdatamodeld */; };
+		A6EDB6A028FCA2F100B34D06 /* MyInfoTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB69F28FCA2F100B34D06 /* MyInfoTabViewController.swift */; };
+		A6EDB6A328FCB2D400B34D06 /* CameraManager in Frameworks */ = {isa = PBXBuildFile; productRef = A6EDB6A228FCB2D400B34D06 /* CameraManager */; };
+		A6EDB6A528FCB49500B34D06 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB6A428FCB49500B34D06 /* PhotosViewController.swift */; };
+		A6F32BD6290901AC00BE0070 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F32BD5290901AC00BE0070 /* NotesViewController.swift */; };
+		A6F5F53029049FF900309044 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F52E29049FF900309044 /* LabelTableViewCell.swift */; };
+		A6F5F53129049FF900309044 /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F5F52F29049FF900309044 /* LabelTableViewCell.xib */; };
+		A6F5F53429051A1A00309044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F53329051A1A00309044 /* ViewController.swift */; };
+		A6F5F53629051A3800309044 /* VehicleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F53529051A3800309044 /* VehicleInfoViewController.swift */; };
+		A6F7E9EF28FE772C004AC244 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7E9ED28FE772C004AC244 /* PhotoTableViewCell.swift */; };
+		A6F7E9F028FE772C004AC244 /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F7E9EE28FE772C004AC244 /* PhotoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A64D3FD229103C6400D46A9F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A604AA5A28F91B4D001506B9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		A64A5FD1290F3C4F009428F6 /* CrashID+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashID+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A64A5FD2290F3C4F009428F6 /* CrashID+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashID+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A64A5FD3290F3C4F009428F6 /* CrashInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A64A5FD4290F3C4F009428F6 /* CrashInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A64A5FDB290F45BD009428F6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A64A5FDD290F6519009428F6 /* TheCrashInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCrashInfo.swift; sourceTree = "<group>"; };
+		A64A5FDF290F6FC3009428F6 /* CrashImages+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashImages+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A64A5FE0290F6FC3009428F6 /* CrashImages+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashImages+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A64A5FE3290F7031009428F6 /* IncidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentViewController.swift; sourceTree = "<group>"; };
+		A64A5FE5290F8352009428F6 /* PhotosHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosHistoryViewController.swift; sourceTree = "<group>"; };
+		A64C7B68290E1356009F84E5 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		A64C7B69290E1356009F84E5 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HistoryTableViewCell.xib; path = ../Controllers/HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		A64C7B6C290E307E009F84E5 /* UserContact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserContact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A64C7B6D290E307E009F84E5 /* UserContact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserContact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A667CB6C28F7254F004DE7AE /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		A669ED5F28F5020A0051D8A2 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		A669ED6128F503110051D8A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A66AA79C28D2FB7200C76D7C /* Airbag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66AA79F28D2FB7200C76D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A66AA7A128D2FB7200C76D7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A66AA7A328D2FB7200C76D7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A66AA7A628D2FB7200C76D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A66AA7A928D2FB7200C76D7C /* Airbag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airbag.xcdatamodel; sourceTree = "<group>"; };
 		A66AA7AB28D2FB7400C76D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A66AA7AE28D2FB7400C76D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A66AA7B028D2FB7400C76D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A677ACA729074348000A4E3D /* ReviewPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPhotosViewController.swift; sourceTree = "<group>"; };
+		A679BA8A28F9F5E800C802DD /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
+		A67EEB4829063C95000E41FE /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		A6843322290123290038D4BF /* TheirInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheirInfoViewController.swift; sourceTree = "<group>"; };
+		A6EDB69828FB936500B34D06 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		A6EDB69928FB936500B34D06 /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TextTableViewCell.xib; path = ../Controllers/TextTableViewCell.xib; sourceTree = "<group>"; };
+		A6EDB69D28FBA6A100B34D06 /* Airbag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airbag.xcdatamodel; sourceTree = "<group>"; };
+		A6EDB69F28FCA2F100B34D06 /* MyInfoTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoTabViewController.swift; sourceTree = "<group>"; };
+		A6EDB6A428FCB49500B34D06 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A6F32BD5290901AC00BE0070 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		A6F5F52E29049FF900309044 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		A6F5F52F29049FF900309044 /* LabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LabelTableViewCell.xib; path = ../Controllers/LabelTableViewCell.xib; sourceTree = "<group>"; };
+		A6F5F53329051A1A00309044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6F5F53529051A3800309044 /* VehicleInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfoViewController.swift; sourceTree = "<group>"; };
+		A6F7E9ED28FE772C004AC244 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A6F7E9EE28FE772C004AC244 /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoTableViewCell.xib; path = ../Controllers/PhotoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EDB6A328FCB2D400B34D06 /* CameraManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +139,86 @@
 			children = (
 				A66AA79F28D2FB7200C76D7C /* AppDelegate.swift */,
 				A66AA7A128D2FB7200C76D7C /* SceneDelegate.swift */,
-				A66AA7A328D2FB7200C76D7C /* ViewController.swift */,
-				A66AA7A528D2FB7200C76D7C /* Main.storyboard */,
+				A6C2E21B28EFCFE500FCCF25 /* Models */,
+				A6B6997528E2CB1200658B45 /* Controllers */,
+				A6C2E21828EFCFA100FCCF25 /* Views */,
 				A66AA7AB28D2FB7400C76D7C /* Assets.xcassets */,
 				A66AA7AD28D2FB7400C76D7C /* LaunchScreen.storyboard */,
 				A66AA7B028D2FB7400C76D7C /* Info.plist */,
-				A66AA7A828D2FB7200C76D7C /* Airbag.xcdatamodeld */,
 			);
 			path = Airbag;
+			sourceTree = "<group>";
+		};
+		A670782928FFA8BA004EE718 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				A64A5FDF290F6FC3009428F6 /* CrashImages+CoreDataClass.swift */,
+				A64A5FE0290F6FC3009428F6 /* CrashImages+CoreDataProperties.swift */,
+				A64A5FD1290F3C4F009428F6 /* CrashID+CoreDataClass.swift */,
+				A64A5FD2290F3C4F009428F6 /* CrashID+CoreDataProperties.swift */,
+				A64A5FD3290F3C4F009428F6 /* CrashInfo+CoreDataClass.swift */,
+				A64A5FD4290F3C4F009428F6 /* CrashInfo+CoreDataProperties.swift */,
+				A64C7B6C290E307E009F84E5 /* UserContact+CoreDataClass.swift */,
+				A64C7B6D290E307E009F84E5 /* UserContact+CoreDataProperties.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		A6B6997528E2CB1200658B45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5F53329051A1A00309044 /* ViewController.swift */,
+				A669ED5F28F5020A0051D8A2 /* EmergencyViewController.swift */,
+				A6EDB69F28FCA2F100B34D06 /* MyInfoTabViewController.swift */,
+				A6EDB6A428FCB49500B34D06 /* PhotosViewController.swift */,
+				A677ACA729074348000A4E3D /* ReviewPhotosViewController.swift */,
+				A6843322290123290038D4BF /* TheirInfoViewController.swift */,
+				A6F5F53529051A3800309044 /* VehicleInfoViewController.swift */,
+				A6F32BD5290901AC00BE0070 /* NotesViewController.swift */,
+				A64A5FDB290F45BD009428F6 /* HistoryViewController.swift */,
+				A64A5FE3290F7031009428F6 /* IncidentViewController.swift */,
+				A64A5FE5290F8352009428F6 /* PhotosHistoryViewController.swift */,
+				A604AA5A28F91B4D001506B9 /* WebViewController.swift */,
+				A679BA8A28F9F5E800C802DD /* LinksViewController.swift */,
+				A67EEB4829063C95000E41FE /* CaptureViewController.swift */,
+				A667CB6C28F7254F004DE7AE /* MyInfoViewController.swift */,
+				A6F5F5322904A27300309044 /* Table Cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6C2E21828EFCFA100FCCF25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A64C7B69290E1356009F84E5 /* HistoryTableViewCell.xib */,
+				A6F5F52F29049FF900309044 /* LabelTableViewCell.xib */,
+				A6F7E9EE28FE772C004AC244 /* PhotoTableViewCell.xib */,
+				A6EDB69928FB936500B34D06 /* TextTableViewCell.xib */,
+				A66AA7A528D2FB7200C76D7C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6C2E21B28EFCFE500FCCF25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A670782928FFA8BA004EE718 /* Persistance */,
+				A669ED6128F503110051D8A2 /* Constants.swift */,
+				A64A5FDD290F6519009428F6 /* TheCrashInfo.swift */,
+				A6EDB69C28FBA6A100B34D06 /* Airbag.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6F5F5322904A27300309044 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A64C7B68290E1356009F84E5 /* HistoryTableViewCell.swift */,
+				A6F5F52E29049FF900309044 /* LabelTableViewCell.swift */,
+				A6F7E9ED28FE772C004AC244 /* PhotoTableViewCell.swift */,
+				A6EDB69828FB936500B34D06 /* TextTableViewCell.swift */,
+			);
+			path = "Table Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,12 +231,16 @@
 				A66AA79828D2FB7200C76D7C /* Sources */,
 				A66AA79928D2FB7200C76D7C /* Frameworks */,
 				A66AA79A28D2FB7200C76D7C /* Resources */,
+				A64D3FD229103C6400D46A9F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Airbag;
+			packageProductDependencies = (
+				A6EDB6A228FCB2D400B34D06 /* CameraManager */,
+			);
 			productName = Airbag;
 			productReference = A66AA79C28D2FB7200C76D7C /* Airbag.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +269,9 @@
 				Base,
 			);
 			mainGroup = A66AA79328D2FB7200C76D7C;
+			packageReferences = (
+				A6EDB6A128FCB2D400B34D06 /* XCRemoteSwiftPackageReference "CameraManager" */,
+			);
 			productRefGroup = A66AA79D28D2FB7200C76D7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F7E9F028FE772C004AC244 /* PhotoTableViewCell.xib in Resources */,
 				A66AA7AF28D2FB7400C76D7C /* LaunchScreen.storyboard in Resources */,
 				A66AA7AC28D2FB7400C76D7C /* Assets.xcassets in Resources */,
+				A6EDB69B28FB936500B34D06 /* TextTableViewCell.xib in Resources */,
 				A66AA7A728D2FB7200C76D7C /* Main.storyboard in Resources */,
+				A64C7B6B290E1356009F84E5 /* HistoryTableViewCell.xib in Resources */,
+				A6F5F53129049FF900309044 /* LabelTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +303,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A66AA7A428D2FB7200C76D7C /* ViewController.swift in Sources */,
-				A66AA7AA28D2FB7200C76D7C /* Airbag.xcdatamodeld in Sources */,
+				A64A5FDC290F45BD009428F6 /* HistoryViewController.swift in Sources */,
+				A6EDB69A28FB936500B34D06 /* TextTableViewCell.swift in Sources */,
+				A64A5FE4290F7031009428F6 /* IncidentViewController.swift in Sources */,
+				A667CB6D28F7254F004DE7AE /* MyInfoViewController.swift in Sources */,
+				A6EDB6A528FCB49500B34D06 /* PhotosViewController.swift in Sources */,
+				A64C7B6A290E1356009F84E5 /* HistoryTableViewCell.swift in Sources */,
+				A6F5F53429051A1A00309044 /* ViewController.swift in Sources */,
+				A64A5FD9290F3C4F009428F6 /* CrashInfo+CoreDataClass.swift in Sources */,
+				A64C7B6F290E307E009F84E5 /* UserContact+CoreDataProperties.swift in Sources */,
+				A64C7B6E290E307E009F84E5 /* UserContact+CoreDataClass.swift in Sources */,
 				A66AA7A028D2FB7200C76D7C /* AppDelegate.swift in Sources */,
+				A64A5FDA290F3C4F009428F6 /* CrashInfo+CoreDataProperties.swift in Sources */,
 				A66AA7A228D2FB7200C76D7C /* SceneDelegate.swift in Sources */,
+				A6F5F53629051A3800309044 /* VehicleInfoViewController.swift in Sources */,
+				A64A5FD8290F3C4F009428F6 /* CrashID+CoreDataProperties.swift in Sources */,
+				A669ED6228F503110051D8A2 /* Constants.swift in Sources */,
+				A64A5FD7290F3C4F009428F6 /* CrashID+CoreDataClass.swift in Sources */,
+				A677ACA829074348000A4E3D /* ReviewPhotosViewController.swift in Sources */,
+				A64A5FE2290F6FC3009428F6 /* CrashImages+CoreDataProperties.swift in Sources */,
+				A669ED6028F5020A0051D8A2 /* EmergencyViewController.swift in Sources */,
+				A6EDB6A028FCA2F100B34D06 /* MyInfoTabViewController.swift in Sources */,
+				A6F5F53029049FF900309044 /* LabelTableViewCell.swift in Sources */,
+				A6F7E9EF28FE772C004AC244 /* PhotoTableViewCell.swift in Sources */,
+				A67EEB4929063C95000E41FE /* CaptureViewController.swift in Sources */,
+				A679BA8B28F9F5E800C802DD /* LinksViewController.swift in Sources */,
+				A64A5FDE290F6519009428F6 /* TheCrashInfo.swift in Sources */,
+				A64A5FE1290F6FC3009428F6 /* CrashImages+CoreDataClass.swift in Sources */,
+				A6F32BD6290901AC00BE0070 /* NotesViewController.swift in Sources */,
+				A6EDB69E28FBA6A100B34D06 /* Airbag.xcdatamodeld in Sources */,
+				A6843323290123290038D4BF /* TheirInfoViewController.swift in Sources */,
+				A64A5FE6290F8352009428F6 /* PhotosHistoryViewController.swift in Sources */,
+				A604AA5B28F91B4D001506B9 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +484,13 @@
 				DEVELOPMENT_TEAM = Z2GBWGVPKB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Airbag/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needed to capture accident photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is needed to automatically detect accident location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Adds media to Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +514,13 @@
 				DEVELOPMENT_TEAM = Z2GBWGVPKB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Airbag/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needed to capture accident photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is needed to automatically detect accident location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Adds media to Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,13 +557,32 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		A6EDB6A128FCB2D400B34D06 /* XCRemoteSwiftPackageReference "CameraManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/imaginary-cloud/CameraManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6EDB6A228FCB2D400B34D06 /* CameraManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6EDB6A128FCB2D400B34D06 /* XCRemoteSwiftPackageReference "CameraManager" */;
+			productName = CameraManager;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		A66AA7A828D2FB7200C76D7C /* Airbag.xcdatamodeld */ = {
+		A6EDB69C28FBA6A100B34D06 /* Airbag.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A66AA7A928D2FB7200C76D7C /* Airbag.xcdatamodel */,
+				A6EDB69D28FBA6A100B34D06 /* Airbag.xcdatamodel */,
 			);
-			currentVersion = A66AA7A928D2FB7200C76D7C /* Airbag.xcdatamodel */;
+			currentVersion = A6EDB69D28FBA6A100B34D06 /* Airbag.xcdatamodel */;
 			path = Airbag.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="198" id="KGk-i7-Jjw" customClass="PhotoTableViewCell" customModule="Airbag" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhD-Bl-iO0">
+                        <rect key="frame" x="100" y="50" width="228" height="98"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="tinted" image="camera" catalog="system"/>
+                        <connections>
+                            <action selector="photoButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tva-do-SLV"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" name="60"/>
+                <constraints>
+                    <constraint firstItem="YhD-Bl-iO0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="50" id="4YV-mF-uqD"/>
+                    <constraint firstAttribute="bottom" secondItem="YhD-Bl-iO0" secondAttribute="bottom" constant="50" id="YHr-CH-INM"/>
+                    <constraint firstAttribute="trailing" secondItem="YhD-Bl-iO0" secondAttribute="trailing" constant="100" id="c4x-AR-LqE"/>
+                    <constraint firstItem="YhD-Bl-iO0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="100" id="qvg-Mn-mEK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="75.384615384615387" y="75.355450236966817"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="camera" catalog="system" width="128" height="93"/>
+        <namedColor name="60">
+            <color red="0.0" green="0.12549019607843137" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

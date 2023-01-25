@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CrashID" representedClassName="CrashID" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CrashImages" representedClassName="CrashImages" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="storedImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+    </entity>
+    <entity name="CrashInfo" representedClassName="CrashInfo" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="insuranceCarrier" optional="YES" attributeType="String"/>
+        <attribute name="licenseNumber" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="plateNumber" optional="YES" attributeType="String"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="vehicleDetails" optional="YES" attributeType="String"/>
+        <attribute name="vinNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserContact" representedClassName="UserContact" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="insuranceCarrier" optional="YES" attributeType="String"/>
+        <attribute name="licenseNumber" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="plateNumber" optional="YES" attributeType="String"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String"/>
+        <attribute name="user" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vinNumber" optional="YES" attributeType="String"/>
+    </entity>
+</model>
