@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "cameramanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/imaginary-cloud/CameraManager",
+      "state" : {
+        "revision" : "30584f3b8fcb47ed778b172b8727b10854704927",
+        "version" : "5.1.3"
+      }
+    }
+  ],
+  "version" : 2
+}
